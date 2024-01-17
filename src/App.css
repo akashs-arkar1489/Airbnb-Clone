@@ -41,13 +41,13 @@
 .container-card{
   height: 300px;
   display: flex;
-  flex-direction: column;
-  padding: 10px;
+  
 }
 
 .card{
   max-width: 200px;
   font-size: 12px;
+  padding: 10px;
 }
 
 .card-star{
