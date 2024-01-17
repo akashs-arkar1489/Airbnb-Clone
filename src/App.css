@@ -29,3 +29,43 @@
     max-width: 100%;
   } 
 }
+
+.hero-header{
+  margin-bottom: 16px;
+}
+
+.hero-text{
+  margin-top: 0;
+}
+
+.container-card{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card{
+  max-width: 200px;
+  font-size: 12px;
+}
+
+.card-star{
+  display: flex;
+  justify-content: start;
+  height: 14px;
+  padding-right: 2px;
+}
+
+.card-img{
+  max-width: 100%;
+  border-radius: 9px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
