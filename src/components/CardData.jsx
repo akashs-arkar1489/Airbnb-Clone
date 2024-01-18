@@ -1,18 +1,17 @@
-import CardImage from "../assets/katie-zaferes.png"
 import Star from "../assets/star.png"
 
-export default function CardData(){
+export default function CardData(props){
     return(
         <div className="card">
-                <img className="card-img" src={CardImage} alt="" />
+                <img className="card-img" src={`${props.img}.png`} alt={props.img} />
                 <div className="card-star">
                     <img src={Star} alt="star" />
-                    <span>5.0</span>
-                    <span className="gray">(6) •</span>
-                    <span className="gray">USA</span>
+                    <span>{props.rating}</span>
+                    <span className="gray">({props.reviewCount}) •</span>
+                    <span className="gray">{props.country}</span>
                 </div>
-                <p>Life Lessons with Katie Zaferes</p>
-                <p><span className="bold">From $136</span> / Perosn</p>
+                <p>{props.title}</p>
+                <p><span className="bold">From ${props.price}</span> / Perosn</p>
         </div>
     )
 }
