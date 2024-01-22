@@ -62,6 +62,12 @@
   border-radius: 9px;
 }
 
+@media (max-width:575px) {
+  .card-img{
+    max-width: 15vh;
+  }
+}
+
 .bold {
   font-weight: bold;
 }
