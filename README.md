@@ -9,7 +9,7 @@
 ![](./airbnb_expriences_clone.gif)
 
 > [!IMPORTANT]
-> Must need to install before begain:
+> Must need to install git & node before begain:
 > 1. [git](https://git-scm.com/downloads)
 > 2. [node](https://nodejs.org/en)
 
