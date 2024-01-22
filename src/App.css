@@ -76,3 +76,7 @@
 .gray {
   color: #918E9B;
 }
+
+.fixd-text{
+  width: max-content;
+}
