@@ -54,9 +54,14 @@
 .card-star{
   display: flex;
   justify-content: start;
+  align-items: baseline;
   font-size: 10px;
   height: 14px;
   padding-right: 2px;
+}
+
+.card-star > img {
+  max-height: 10px;
 }
 
 .card-img{
@@ -89,4 +94,34 @@
   padding: 5px 7px;
   border-radius: 8px;
   font-weight: bold;
+}
+
+.card-badge-online{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 8px;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.blink{
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #0fcc45;
+  opacity: 0.7;
+  border-radius: 50%;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  100%{
+    transform: scale(2,2);
+    opacity: 0;
+  }
 }

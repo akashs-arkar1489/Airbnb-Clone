@@ -1,10 +1,15 @@
 import Star from "/images/star.png"
 
 export default function CardData(props){
-    console.log(props.status)
+    let badgeText;
+    if (props.status === 0){
+        badgeText = "Sold Out"
+    }else if (props.country === "Online" ){
+        badgeText = "ONLINE"
+    }
     return(
         <div className="card">
-            {props.status === 0 ? <div className="card-badge" >Sold Out</div> : <div className="card-badge" >{props.status} slots remaining</div> }
+            {badgeText && <div className={badgeText === "ONLINE" ? "card-badge-online" : "card-badge"}><span style={badgeText === "ONLINE" ? {display: "block"}: {display: "none"}} className="blink"></span> {badgeText}</div> }
             <img className="card-img" src={props.imgurl} alt={props.imgurl} />
             <div className="card-star">
                 <img src={Star} alt="star" />
