@@ -3,7 +3,7 @@ import Star from "/images/star.png"
 export default function CardData(props){
     return(
         <div className="card">
-                <img className="card-img" src={props.imgurl} alt={props.img} />
+                <img className="card-img" src={props.imgurl} alt={props.imgurl} />
                 <div className="card-star">
                     <img src={Star} alt="star" />
                     <span>{props.rating}</span>
