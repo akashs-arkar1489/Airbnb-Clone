@@ -1,9 +1,9 @@
-import Star from "../assets/star.png"
+import Star from "../../public/assets/star.png"
 
 export default function CardData(props){
     return(
         <div className="card">
-                <img className="card-img" src={`${props.img}.png`} alt={props.img} />
+                <img className="card-img" src={props.imgurl} alt={props.img} />
                 <div className="card-star">
                     <img src={Star} alt="star" />
                     <span>{props.rating}</span>
