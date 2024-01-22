@@ -1,12 +1,14 @@
 # React Airbnb Expriences Clone
 
-## Screen Capture 1
+### Screen Capture 1
 
 ![](./Screenshot.png)
 
-## screen Capture 2 (live)
+### screen Capture 2 (live)
 
 ![](./airbnb_expriences_clone.gif)
+
+## Installation & Run
 
 > [!IMPORTANT]
 > Must need to install git & node before begain:
