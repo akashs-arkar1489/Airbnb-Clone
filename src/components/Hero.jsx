@@ -1,4 +1,4 @@
-import PhotoGrid from "/assets/photo-grid.png"
+import PhotoGrid from "/images/photo-grid.png"
 export default function Hero(){
     return(
         <div className="hero">

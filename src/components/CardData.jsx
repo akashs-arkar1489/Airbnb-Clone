@@ -1,4 +1,4 @@
-import Star from "../../public/assets/star.png"
+import Star from "/images/star.png"
 
 export default function CardData(props){
     return(
