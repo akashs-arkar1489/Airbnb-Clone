@@ -5,7 +5,7 @@ export default function Card(){
     const viewdata = Data.map((each_data) => {
         return <CardData 
             key={each_data.id}
-            item = {each_data}
+            {...each_data}
         />
     })
     return(
