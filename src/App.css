@@ -39,7 +39,7 @@
 }
 
 .container-card{
-  height: 300px;
+  height: auto;
   display: flex;
   overflow-x: auto;
 }
