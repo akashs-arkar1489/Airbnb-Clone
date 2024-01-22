@@ -10,6 +10,7 @@ export default function Card(){
             reviewCount={each_data.stats.reviewCount}
             country={each_data.location}
             price={each_data.price}
+            status={each_data.openSpots}
         />
     })
     return(

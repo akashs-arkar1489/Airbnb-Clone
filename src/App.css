@@ -45,6 +45,7 @@
 }
 
 .card{
+  position: relative;
   max-width: 200px;
   font-size: 11px;
   padding: 10px;
@@ -79,4 +80,13 @@
 
 .fixd-text{
   width: max-content;
+}
+.card-badge{
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 8px;
+  font-weight: bold;
 }
