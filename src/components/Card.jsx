@@ -5,7 +5,6 @@ export default function Card(){
     const viewdata = Data.map((each_data) => {
         return <CardData
             title={each_data.title}
-
             imgurl={each_data.coverImg}
             rating={each_data.stats.rating}
             reviewCount={each_data.stats.reviewCount}
