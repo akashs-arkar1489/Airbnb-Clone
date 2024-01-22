@@ -1,4 +1,4 @@
-import CardData from "./CardData"
+import CardData from "./card-data/CardData"
 
 export default function Card(){
     return(
