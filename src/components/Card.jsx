@@ -3,7 +3,7 @@ import Data from "./card-data/Data"
 
 export default function Card(){
     const viewdata = Data.map((each_data) => {
-        return <CardData
+        return <CardData key={each_data.id}
             title={each_data.title}
             imgurl={each_data.coverImg}
             rating={each_data.stats.rating}
