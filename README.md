@@ -13,10 +13,22 @@
 > 1. [git](https://git-scm.com/downloads)
 > 2. [node](https://nodejs.org/en)
 
-to start loally:
+to download the project:
 ````
 $ git clone https://github.com/akashs-arkar1489/Airbnb-Clone.git
 $ cd AIRBNB-CLONE
-$ npm install
+````
+
+to start locally
+````
+$ cd AIRBNB-CLONE
 $ npm run dev
 ````
+
+to start in your personal network:
+````
+$ cd AIRBNB-CLONE
+$ npm run dev -- --host
+````
+
+thanks😘
