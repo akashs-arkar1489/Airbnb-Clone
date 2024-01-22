@@ -41,7 +41,7 @@
 .container-card{
   height: 300px;
   display: flex;
-  
+  overflow-x: auto;
 }
 
 .card{
