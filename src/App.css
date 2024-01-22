@@ -46,13 +46,14 @@
 
 .card{
   max-width: 200px;
-  font-size: 12px;
+  font-size: 11px;
   padding: 10px;
 }
 
 .card-star{
   display: flex;
   justify-content: start;
+  font-size: 10px;
   height: 14px;
   padding-right: 2px;
 }
