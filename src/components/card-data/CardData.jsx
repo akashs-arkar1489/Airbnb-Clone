@@ -7,7 +7,6 @@ export default function CardData(props){
     }else if (props.location === "Online" ){
         badgeText = "ONLINE"
     }
-    console.log(props)
     return(
         <div className="card">
             {badgeText && <div className={badgeText === "ONLINE" ? "card-badge-online" : "card-badge"}><span style={badgeText === "ONLINE" ? {display: "block"}: {display: "none"}} className="blink"></span> {badgeText}</div> }
